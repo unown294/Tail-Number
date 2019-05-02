@@ -76,7 +76,7 @@ public class TailNumber{
 				
 				if(i != charTailNumber.size() - 1){
 					NATO(charTailNumber.get(i));
-					System.out.printf(",");
+					System.out.printf(", ");
 				}
 				else{
 					NATO(charTailNumber.get(i));
@@ -93,7 +93,7 @@ public class TailNumber{
 				
 				if(i != charTailNumber.size() - 1){
 					ICAO(charTailNumber.get(i));
-					System.out.printf(",");
+					System.out.printf(", ");
 				}
 				else{
 					ICAO(charTailNumber.get(i));
@@ -110,7 +110,7 @@ public class TailNumber{
 				
 				if(i != charTailNumber.size() - 1){
 					Able(charTailNumber.get(i));
-					System.out.printf(",");
+					System.out.printf(", ");
 				}
 				else{
 					Able(charTailNumber.get(i));
@@ -118,6 +118,7 @@ public class TailNumber{
 			}
 		}
 		
+		//Error catching
 		else{
 			
 			throw new IllegalArgumentException("A invalid response has been detected. Please select 1, 2, or 3 as a valid option.");
@@ -242,7 +243,7 @@ public class TailNumber{
 				System.out.printf("ZERO");
 				break;
 			default:
-				System.out.printf("Error");
+				System.out.printf("Error: Invalid Character");
 				break;
 		}
 	}
@@ -362,7 +363,7 @@ public class TailNumber{
 				System.out.printf("ZERO");
 				break;
 			default:
-				System.out.printf("Error");
+				System.out.printf("Error: Invalid Character");
 				break;
 		}
 	}
@@ -416,7 +417,7 @@ public class TailNumber{
 				System.out.printf("Nectar");
 				break;
 			case 'o':
-				System.out.printf("Oscar");
+				System.out.pSELrintf("Oscar");
 				break;
 			case 'p':
 				System.out.printf("Papa");
@@ -482,7 +483,7 @@ public class TailNumber{
 				System.out.printf("ZERO");
 				break;
 			default:
-				System.out.printf("Error");
+				System.out.printf("Error: Invalid Character");
 				break;
 		}
 	}
