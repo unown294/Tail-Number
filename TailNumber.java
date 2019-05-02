@@ -417,7 +417,7 @@ public class TailNumber{
 				System.out.printf("Nectar");
 				break;
 			case 'o':
-				System.out.pSELrintf("Oscar");
+				System.out.printf("Oscar");
 				break;
 			case 'p':
 				System.out.printf("Papa");
